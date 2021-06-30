@@ -3,7 +3,8 @@ The current sim is written in Python2 (cause that's what I happened to have) and
 This allows easy editing and running subcomponents, but there is also a standard .py file which can be run in any python IDE or command line.
 
 ## How to use
-See the example.py for a quick explanation of the correct way to run the sim, as you desire.
+Intialize the stats with the "settings()" function, make any necessary tweaks to the default, then run "encounter" with fight length, settings, and rotation choice as inputs.
+It will output only dps by default, or more info if chosen.
 
 ## Model explanation
 ### Overview
