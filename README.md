@@ -1,6 +1,6 @@
 # Analytical TBC Balance Sim: Burn-Regen model
-The current sim is written in Python2 (cause that's what I happened to have) and in Jupyter notebook. 
-This allows easy editing and running subcomponents, but there is also a standard .py file which can be run in any python IDE or command line.
+The current sim is written in Python2 and in Jupyter notebook. This allows easy editing and running subcomponents
+Therea are also a standard .py files which can be run in any python IDE or command line, a module and an active script.
 
 ## How to use
 Intialize the stats with the "settings()" function, make any necessary tweaks to the default, then run "encounter" with fight length, settings, and rotation choice as inputs.
