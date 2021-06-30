@@ -18,5 +18,7 @@ A full fight is expected to be a combination of these two phases where you begin
 
 ### Dps calculation
 The damage of each spell individually is taken as the average damage done, crit/hit/resist taken into account.
-The dps of a phase is calculated over one full "rotation". I.e. if you are casting moonfire+starfire your rotation looks something like
-(MF,SF,SF,SF,SF,SF),(MF,SF,SF,SF,SF,SF)...
+The dps of a phase is calculated over one full "rotation". I.e. if you are casting moonfire+starfire your full fight looks something like
+(MF,SF,SF,SF,SF,SF),(MF,SF,SF,SF,SF,SF)...(MF,SF,SF,SF,SF,SF). A "rotation" is simply one chain of (MF,SF,SF,SF,SF,SF). We can calculate the 
+damage done over a single rotation, the mana used, and the time spent doing it. Using damage and time, we calculate the phase dps. Using max mana pool, 
+mana consumption/gain, and rotation time, we can calculate the total time spent in a phase. Add up the damage done in each phase and you can get the total DPS.
